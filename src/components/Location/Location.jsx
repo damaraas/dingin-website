@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaMapMarkerAlt } from 'react-icons/fa';
-import Gofood from '../../assets/Gofood.png'
+import Gofood from '../../assets/gofood.png'
 
 const Location = () => {
     return (
