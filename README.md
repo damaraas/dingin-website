@@ -4,7 +4,7 @@
 The **Dingin Website** project is a web-based application developed using **HTML**, **TAILWINDCSS**, and **REACT JS**. This website contains 4 pages, Home page, Menu page, Order page, and Contact page.
 
 ## Demo Live Link
-dingin-website-zjc9.vercel.app
+dingin-website.vercel.app
 
 ## Installation
 ### 1. Clone repository
