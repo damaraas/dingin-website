@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
-import Gofood from '../assets/Gofood.png'
+import Gofood from '../assets/gofood.png'
 
 const OrderPage = () => {
   const [name, setName] = useState('');
