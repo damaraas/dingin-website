@@ -39,13 +39,13 @@ const BestSeller = () => {
             Best Seller
         </h1>
         <div className='py-24 mx-4'>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 md:gap-5 sm:gap-7 sm:mx-3 place-items-center'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 sm:gap-2 sm:mx-3 place-items-center'>
                 { BestMenu.map(({ id, img, name, description }) => {
                 return (
                 <div data-aos='zoom-in' data-aos-duration='300' key={ id } className='max-w-[280px] group rounded-2xl bg-white dark:hover:bg-third hover:bg-primary hover:text-gray-800 duration-300 p-4 shadow-xl'>
                     <div className='h-[180px]'>
                         <img src={ img } alt=""
-                        className='max-w-[250px] mx-auto block transform -translate-y-24 group-hover:scale-105 duration-300'/>
+                        className='block transform -translate-y-24 group-hover:scale-105 duration-300'/>
                     </div>
                     <div>
                         <h1 className='text-xl font-semibold font-poetsen'>{ name }</h1>

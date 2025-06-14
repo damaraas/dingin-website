@@ -21,8 +21,17 @@ export default {
           DEFAULT: '1rem',
           sm: '3rem',
         }
-      }
+      },
+      keyframes: {
+        motion: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-25%)' },
+        },
+      },
+      animation: {
+        motion: 'motion 15s linear infinite',
+      },
     },
+  },
   plugins: [],
-  }
 }

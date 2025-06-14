@@ -19,7 +19,7 @@ const ContactPage = () => {
                             </h1>
                               <div className="flex flex-col lg:flex-row items-center gap-2">
                                   {/* Section kiri */}
-                                  <div data-aos='fade-up' data-aos-duration='600' className="w-full lg:w-1/2 lg:py-2 lg:px-5 px-4 sm:py-3 md:px-2 text-center lg:text-left bg-gray-100 rounded-md">
+                                  <div data-aos='fade-up' data-aos-duration='600' data-aos-once='true' className="w-full lg:w-1/2 lg:py-2 lg:px-5 px-4 sm:py-3 md:px-2 text-center lg:text-left bg-gray-100 rounded-md">
                                       <h1 className="text-2xl font-poetsen text-gray-800 dark:text-gray-800 duration-300 py-2">
                                           Informasi Kontak
                                       </h1>
@@ -43,7 +43,7 @@ const ContactPage = () => {
                                   </div>
       
                                   {/* Section kanan */}
-                                  <div data-aos='fade-up' data-aos-duration='600' className="w-full lg:w-1/2 lg:py-2 lg:px-5 px-4 sm:py-3 md:px-2 text-center lg:text-left bg-gray-100 rounded-md">
+                                  <div data-aos='fade-up' data-aos-duration='600' data-aos-once='true' className="w-full lg:w-1/2 lg:py-2 lg:px-5 px-4 sm:py-3 md:px-2 text-center lg:text-left bg-gray-100 rounded-md">
                                       <h1 className="text-2xl font-poetsen text-gray-800 dark:text-gray-800 duration-300 py-2">
                                           Jam Operasional
                                       </h1>
@@ -68,7 +68,7 @@ const ContactPage = () => {
                               </div>
                               <div className='w-full h-[400px] overflow-hidden pt-4'>
                                 <iframe
-                                    data-aos='zoom-in' data-aos-duration='600'
+                                    data-aos='zoom-in' data-aos-duration='600' data-aos-once='true'
                                     src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.343271149371!2d106.95735889999999!3d-6.2183834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d5e71ffc735%3A0xdf3ea1b205850d7b!2sDingin%20Ice%20Cream!5e0!3m2!1sid!2sid!4v1749299299630!5m2!1sid!2sid'
                                     width='100%'
                                     height='100%'

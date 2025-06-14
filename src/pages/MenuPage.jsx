@@ -77,7 +77,7 @@ const MenuPage = () => {
         <>
             <Navbar />
             <section className='py-10 px-4 bg-white dark:bg-gray-900 duration-400'>
-                <div data-aos='fade-out' data-aos-duration='600' className='flex gap-4 justify-center mb-8'>
+                <div data-aos='fade-out' data-aos-duration='600' data-aos-once='true' className='flex gap-4 justify-center mb-8'>
                     {categories.map(cat => (
                         <button key={cat} onClick={() => setSelectedCategory(cat)}
                             className={`px-4 py-2 rounded-full font-semibold 
@@ -89,7 +89,7 @@ const MenuPage = () => {
 
                 <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-8 mx-9'>
                     {filteredMenus.map(menu => (
-                        <div data-aos='zoom-in' data-aos-duration='800' data-aos-easing='ease-in-out' key={menu.id} className='border p-4 rounded-lg shadow hover:bg-third dark:hover:bg-primary duration-300 bg-white'>
+                        <div data-aos='zoom-in' data-aos-duration='800' data-aos-easing='ease-in-out' data-aos-once='true' key={menu.id} className='group border p-4 rounded-lg shadow hover:bg-third dark:hover:bg-primary duration-300 bg-white'>
                             <div className='w-full h-[180px] flex justify-center items-center overflow-hidden'>
                                 <img
                                     src={menu.img}

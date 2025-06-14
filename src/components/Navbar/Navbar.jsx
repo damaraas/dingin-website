@@ -43,7 +43,7 @@ const Navbar = () => {
                         </div>
                         {/* Mobile & tablet menu */}
                         {navOpen && (
-                            <div className='fixed bottom-0 right-0 left-0 py-2 px-20 bg-white lg:hidden transition-all duration-300 scale-100 dark:bg-gray-900 z-50'>
+                            <div className='fixed bottom-0 right-0 left-0 py-2 md:px-20 px-12 bg-white lg:hidden transition-all duration-300 scale-120 dark:bg-gray-900 z-50'>
                                 <ul className='flex justify-between'>
                                     <li>
                                         <Link to="/" className='flex justify-center flex-col items-center gap-1'>
